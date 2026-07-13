@@ -13,6 +13,7 @@ nav{
   
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1200px;
   margin: auto;
   padding: 8px 0;
@@ -24,7 +25,7 @@ ul{
   justify-content:space-between;
   list-style: none;
   gap:10px;
-  padding-right: 15px;
+  padding-right: 10px;
   align-items: center;
   
 }
@@ -49,8 +50,39 @@ color: white;
 border: none;
 border-radius: 5px;
 height:30px;
-width: 90px; ;
+width: 90px;
+cursor: pointer;
 
 
 
+}
+
+img{
+  height: 300px;
+  width: 300px;
+}
+.hero{
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin:auto;
+
+}
+button{
+  margin:30px 0;
+  cursor: pointer;
+
+}
+.hi{
+  color: gray;
+}
+.con{
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  color: #FD6E0A;
+  border:none;
+  border:.5px solid #FD6E0A;
+  margin: 5px;
 }
