@@ -4,9 +4,13 @@
    font-family:"Open Sans", sans-serif;
   
 }
+img{
+  max-width: 100%;
+}
+
 
 nav{
-  background-color:#FFF8F3;
+  background-color:#f2eae4;
 }
   
 .nope{
@@ -61,6 +65,11 @@ img{
   height: 300px;
   width: 300px;
 }
+.first{
+  background-color: #ffe6d5;
+  width:100%;
+
+}
 .hero{
 display: flex;
 justify-content: space-between;
@@ -71,7 +80,7 @@ margin:auto;
 }
 button{
   margin:30px 0;
-  cursor: pointer;
+  cursor:pointer
 
 }
 .hi{
@@ -86,3 +95,84 @@ button{
   border:.5px solid #FD6E0A;
   margin: 5px;
 }
+
+.tow {
+
+max-width: 1200px;
+margin: 0 auto;
+text-align: center;
+background-color:rgb(228, 244, 250);
+margin: 50px auto;
+padding: 0 30px;
+
+
+}
+.towb{
+  display:flex;
+  justify-content: space-between;
+  margin:30px auto;
+  padding-bottom: 30px;
+  }
+
+  .wht{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .abt_mn{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:50px;
+  }
+  .abt_mn div h3{
+    margin-bottom: 30px;
+  }
+.abt_mn div{
+  border: 2px solid gainsboro;
+  border-radius: 10px; 
+  padding: 10px;
+  background-color: rgb(239, 238, 238);
+  font-size: 10px;
+}
+.sumsec{
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  gap: 5px;
+  }
+  .ed{
+    border-bottom: .5px solid gray;
+    margin:5px auto;
+    padding: 20px;
+  }
+  .ex{
+    display: grid;
+  grid-template-rows: repeat(3,1fr);
+  gap: 5px;
+  }
+
+  .summain{
+    display:grid ;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+  
+    }
+    .sum{
+      text-align: center;
+      margin: 80px auto;
+    }
+    .ed h3{
+      margin-bottom: 20px;
+      color: blue;
+    }
+    .ed h5{
+      margin-bottom: 10px ;
+      font-size: 12.5px;
+      
+    }
+    
