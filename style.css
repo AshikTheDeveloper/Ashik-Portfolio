@@ -255,3 +255,32 @@ button {
   grid-area: six;
   
 }
+.footer{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:50px;
+  height: 100%;
+  width: 100%;
+  text-align:left;
+  background-color: bisque;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+  height: 450px;
+  padding-top: 40px;
+}
+.for form input{
+  display: block;
+  margin: 5px;
+  width: 100%;
+  height: 80px;
+  border:none;
+  border-radius: 15px;
+  padding-left: 20px;
+  
+}
+.conn h3,.for h3{
+  padding-bottom: 20px;
+  font-size: 35px;
+  
+}
